@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tareas_Rad.Views.PaginaResultadoOp">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Resultado de la operacion"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   FontSize="Large"
+                   TextColor="WhiteSmoke"
+                   BackgroundColor="OrangeRed"
+                   />
+
+            <Label x:Name="Lblresultado" FontSize="Large" TextColor="CadetBlue" Text=" " VerticalOptions="Center" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

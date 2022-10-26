@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tareas_Rad.Views.RecepcionEmpleados">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Recepcion de datos del empleado"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                   FontSize="Large"
+                   TextColor="WhiteSmoke"
+                   BackgroundColor="OrangeRed"/>
+
+            <Label Text="{Binding Nombres}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+
+            <Label Text="{Binding apellidos}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+
+            <Label Text="{Binding Edad}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+
+            <Label Text="{Binding Correo}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

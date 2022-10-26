@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tareas_Rad.Views.MainEmpleados">
+    <ContentPage.Content>
+        <StackLayout>
+
+
+            <Entry x:Name="txtNombre" Placeholder="Ingrese su nombre" Keyboard="Text" FontSize="Medium" TextColor="WhiteSmoke"/>
+            
+            <Entry x:Name="txtApellido" Placeholder="Ingrese su apellido" Keyboard="Text" FontSize="Medium" TextColor="WhiteSmoke"/>
+            
+            <Entry x:Name="txtEdad" Placeholder="Ingrese su edad actual" Keyboard="Numeric" FontSize="Medium" TextColor="WhiteSmoke"/>
+            
+            <Entry x:Name="txtCorreo" Placeholder="Ingrese un correo electronico" Keyboard="Email"/>
+            
+            
+
+            <Button x:Name="BtnSalvar" Text="Salvar Informacion en la siguiente pagina" Clicked="BtnSalvar_Clicked" FontSize="Medium" HorizontalOptions="Center" VerticalOptions="Center"/>
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tareas_Rad.MainPage">
+
+    <StackLayout>
+
+        <Label Text="Primera asignacion Programacion Rad 2022" FontSize="Large" VerticalOptions="Center" HorizontalOptions="Center" TextColor="Wheat" BackgroundColor="OliveDrab"/>
+
+        <Label x:Name="LblMatematicas" Text="Selecciona aqui para ir a la pagina de operaciones matematicas" FontSize="Large" TextColor="WhiteSmoke" />
+        <Button x:Name="BtnMath" Text="Operacion" Clicked="BtnMath_Clicked" FontSize="Medium" />
+
+        <Label x:Name="LblDatos" Text="Selecciona aqui para ingresar sus datos personales" FontSize="Large" TextColor="WhiteSmoke"/>
+        <Button x:Name="Btndatos" Text="Datos personales" Clicked="Btndatos_Clicked" FontSize="Medium"/>
+
+
+
+
+    </StackLayout>
+
+</ContentPage>
